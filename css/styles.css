@@ -94,7 +94,7 @@ header img{
 	width: 13px;
 	height: 8px;
 	margin-left: 10px;
-	background-image: url('./assets/assets/icons/down-arrow.svg') ;
+	background-image: url(../assets/assets/icons/down-arrow.svg);
 }
 
 main{
@@ -124,7 +124,7 @@ main{
 	height: 200px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	background:url(./assets/assets/img/Bitcoin.svg);
+	background:url(../assets/assets/img/Bitcoin.svg);
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat ;
@@ -220,7 +220,7 @@ main{
 	width: 12px;
 	height: 8px;
 	margin-left: 13px;
-	background-image: url(./assets/assets/icons/trending-down.svg);
+	background-image: url(../assets/assets/icons/trending-down.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -230,7 +230,7 @@ main{
 }
 
 .container-right .traiding-up{
-	background-image: url(./assets/assets/icons/trending-up.svg);
+	background-image: url(../assets/assets/icons/trending-up.svg);
 }
 
 
@@ -285,7 +285,7 @@ main{
 	left: calc(50% - 20px);
 	width: 40px;
 	height: 25px;
-	background-image: url(./assets/assets/icons/batata.svg);
+	background-image: url(../assets/assets/icons/batata.svg);
 	background-position: center;
 }
 
@@ -360,7 +360,7 @@ main{
 	width: 100%;
 	min-width: 320px;
 	height: 50vh;
-	background-image: url(./assets/assets/img/bitcoinbaby2x.jpg);
+	background-image: url(../assets/assets/img/bitcoinbaby2x.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -522,7 +522,7 @@ main{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background-image: url(./assets/assets/icons/orange-right-arrow.svg);
+	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
 	vertical-align: text-bottom;
 }
 
@@ -543,7 +543,7 @@ main{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background-image: url(./assets/assets/icons/orange-right-arrow.svg);
+	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
 	vertical-align: text-bottom;
 }
 
@@ -564,7 +564,7 @@ main{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background-image: url(./assets/assets/icons/orange-right-arrow.svg);
+	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
 	vertical-align: text-bottom;
 }
 
