@@ -120,11 +120,11 @@ main{
 }
 
 .main-exchange-container .backgroundImg{
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 220px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	background:url(../assets/assets/img/Bitcoin.svg);
+	background:url(https://bitcoin.org/img/home/bitcoin-img.svg?1657703267);
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat ;
@@ -205,6 +205,13 @@ main{
 	font-size: 1.6rem;	
 	color: var(--grey);
 	text-align: left
+}
+
+.container-left img{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	vertical-align: bottom;
 }
 
 .container-right{
@@ -430,6 +437,10 @@ main{
 	box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
+.plans-container-card:nth-child(2){
+	box-shadow: 0 4px 8px 2px rgba(212, 117, 28, 0.685);
+}
+
 .recommended{
 	position: absolute;
 	width: 120px;
@@ -520,9 +531,14 @@ main{
 
 .plan-card-car span{
 	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
+	position: relative;
+	top: 3px;
+	width: 22px;
+	height: 22px;
+	background-image: url(../assets/assets/icons/arrow-orange.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	vertical-align: text-bottom;
 }
 
@@ -541,9 +557,14 @@ main{
 
 .plan-card-cab span{
 	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
+	position: relative;
+	top: 3px;
+	width: 22px;
+	height: 22px;
+	background-image: url(../assets/assets/icons/arrow-blue.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	vertical-align: text-bottom;
 }
 
@@ -562,9 +583,14 @@ main{
 
 .plan-card-cau span{
 	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background-image: url(../assets/assets/icons/orange-right-arrow.svg);
+	position: relative;
+	top: 3px;
+	width: 22px;
+	height: 22px;
+	background-image: url(../assets/assets/icons/arrow-black.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	vertical-align: text-bottom;
 }
 
@@ -599,6 +625,48 @@ footer .left ul{
 	text-decoration: none;
 	color: var(--just-white);
 }
+
+.left .linkedin{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(https://cdn-icons-png.flaticon.com/512/174/174857.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+
+
+
+.left .crunchbase{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(https://icons-for-free.com/download-icon-crunchbase-1324440143451206135_512.icns);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	vertical-align: bottom;
+	margin-right: 10px;
+
+}
+
+.left .hackernews{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(https://play-lh.googleusercontent.com/S-jC2RtBE_9A29myfMZgU22AwF-eITjCBBMEf4YIqXODDiazO6fOhzw243IFCxytLDE);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	vertical-align: bottom;
+	margin-right: 10px;
+
+}
+
 
 .right img{
 	width: 80px;
